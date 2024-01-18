@@ -9,5 +9,12 @@
 
 <body>
     <h1>ブラウザに画面を表示できた！</h1>
+    <p><?php echo $content ?></p>
+    <table>
+        <tr>
+            <td>パスパラメータ</td>
+            <td><?php echo $param ?></td>
+        </tr>
+    </table>
 </body>
 </html>
